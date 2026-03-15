@@ -81,3 +81,9 @@ data-science-salary-analysis
 ## Author
 
 Carolina H.M.
+
+## Interactive Notebook
+
+The full interactive version of this analysis (including Plotly visualizations) can be viewed on Kaggle:
+
+https://www.kaggle.com/code/wildina/data-science-salary-analysis
