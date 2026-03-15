@@ -1,89 +1,120 @@
 # Data Science Salary Analysis
 
-Exploratory Data Analysis (EDA) of salaries in the data science industry using Python.
-
-This project investigates how factors such as experience level, company location, company size and remote work influence compensation in data-related roles.
+Exploratory Data Analysis (EDA) of global data science salaries using Python.  
+This project investigates how factors such as experience level, company size, location, and remote work influence salary levels in the data science industry.
 
 ---
 
-## Dataset
+# Project Overview
 
-The dataset used in this project comes from Kaggle:
+The demand for data professionals has grown rapidly in recent years. Understanding salary patterns can help identify key drivers behind compensation differences across roles, locations, and working conditions.
 
-Data Science Job Salaries Dataset  
+This project performs a comprehensive exploratory analysis on a dataset of data science salaries to uncover meaningful trends and insights.
+
+The analysis focuses on:
+
+- Salary distribution across experience levels
+- Geographic salary differences
+- Impact of company size
+- Remote vs on-site work patterns
+- Salary trends over time
+
+---
+
+# Dataset
+
+The dataset contains salary information for data science roles across multiple countries and companies.
+
+Source:
+
+Kaggle dataset  
 https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries
 
-The dataset contains information about:
+Key variables include:
 
-- Job titles
-- Experience levels
-- Employment types
-- Company locations
-- Remote work ratios
-- Company sizes
-- Salaries converted to USD
-
----
-
-## Objectives
-
-The main goal of this analysis is to explore salary patterns in the data science industry.
-
-Key questions explored in the analysis:
-
-- How does **experience level** influence salary?
-- Are there **salary differences across countries**?
-- How does **company size** affect compensation?
-- Is **remote work associated with higher salaries**?
-- How have **salaries evolved over time**?
+- work_year
+- experience_level
+- employment_type
+- job_title
+- salary_in_usd
+- company_location
+- company_size
+- remote_ratio
 
 ---
 
-## Tools and Technologies
+# Tools and Technologies
 
-This project was developed using:
-
-- **Python**
-- **Pandas**
-- **NumPy**
-- **Seaborn**
-- **Matplotlib**
-- **Plotly**
-
-The analysis was conducted using a Jupyter Notebook environment.
+Python  
+Pandas  
+NumPy  
+Matplotlib  
+Seaborn  
+Plotly  
 
 ---
 
-## Key Insights
+# Key Visualizations
 
-Some important findings from the analysis include:
+## Salary Distribution by Experience Level
 
-- **Experience level is the strongest driver of salary differences.**
-- The **United States dominates the dataset** both in number of roles and salary levels.
-- **Medium-sized companies show the highest median salaries** in the dataset.
-- **Remote roles appear associated with higher salary ranges**, although this may be influenced by other factors such as experience level and company location.
-- Median salaries show an **increasing trend between 2020 and 2022**, reflecting the growth of the data science field.
+![Salary Distribution by Experience](salary_experience.png)
+
+This visualization shows how salaries increase significantly with experience. Executive and senior roles command substantially higher compensation compared to entry-level positions.
 
 ---
 
-## Repository Structure
+## Global Distribution of Data Science Salaries
 
-data-science-salary-analysis
-│
-├── data_science_salary_analysis.ipynb
-├── README.md
-├── LICENSE
-└── .gitignore
+![Global Salary Map](salary_map.png)
 
+The geographic visualization highlights strong salary concentration in North America and parts of Europe, with the United States dominating both in number of roles and salary levels.
 
 ---
 
-## Author
+## Salary Patterns Across Multiple Factors
 
-Carolina H.M.
+![Salary Bubble Chart](salary_bubble.png)
 
-## Interactive Notebook
+This chart explores how experience level, company size, and remote work interact with salary levels, revealing that higher salaries are often associated with senior roles and remote-friendly environments.
 
-The full interactive version of this analysis (including Plotly visualizations) can be viewed on Kaggle:
+---
+
+# Key Insights
+
+**Experience level is the strongest driver of salary differences.**  
+Median salaries increase dramatically from entry-level to executive roles.
+
+**The United States dominates the dataset.**  
+It represents the majority of observations and shows the highest median salaries.
+
+**Medium-sized companies offer competitive salaries.**  
+They slightly outperform large companies in median compensation.
+
+**Remote work is associated with higher salaries.**  
+However, this may also reflect the concentration of remote roles in senior positions.
+
+**Salaries show a clear upward trend between 2020 and 2022.**  
+This reflects the rapid expansion of the data science industry.
+
+---
+
+# Interactive Notebook
+
+The notebook contains interactive visualizations (Plotly) that may not render correctly on GitHub.
+
+You can view the full interactive version on Kaggle:
 
 https://www.kaggle.com/code/wildina/data-science-salary-analysis
+
+---
+
+# Author
+
+Carolina H.M.  
+
+GitHub  
+https://github.com/carolinahm-tech
+
+Kaggle  
+https://www.kaggle.com/wildina
