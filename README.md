@@ -1,5 +1,7 @@
 # Data Science Salary Analysis
 
+🇪🇸 Versión en español: [README_ES.md](README_ES.md)
+
 Exploratory Data Analysis (EDA) of global data science salaries using Python.  
 This project investigates how factors such as experience level, company size, location, and remote work influence salary levels in the data science industry.
 
